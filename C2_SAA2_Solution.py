@@ -32,9 +32,9 @@ while carryOn:
     
     # Limiting paddle movement on screen along x-axis
     if paddle.x >= 480:
-        paddlex =- paddlex
+        paddlex = -paddlex
     if paddle.x <= 60:
-        paddlex =- paddlex
+        paddlex = -paddlex
     
     # Updating the x and y position of the ball on screen by 1 unit
     ball.x = ball.x + ballx
